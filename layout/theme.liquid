@@ -1,0 +1,11 @@
+{% comment %} BASE TEMPLATE {% endcomment %}
+<!DOCTYPE html>
+<html>
+<head>
+  {{ content_for_header }}
+  <link rel="stylesheet" href="{{ 'y2k.css' | asset_url }}">
+</head>
+<body>
+  {{ content_for_layout }}
+</body>
+</html>
